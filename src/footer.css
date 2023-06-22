@@ -1,0 +1,42 @@
+.container{
+    border-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:#495e57;
+    border-radius: 6pt;
+    /* gap:10px */
+}
+.container h3{
+    font-family: karla;
+    font-size: 14pt;
+    color: #edefee;
+}
+.container p{
+    font-family: karla;
+    font-size: 12pt;
+    color: #edefee;
+}
+.container div{
+    text-align: start;
+}
+@media screen and (max-width: 980px){
+    .container{
+        border-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        background-color: #495e57;
+        border-radius: 6pt;
+        /* gap:10px */
+    }
+}
+
+@media screen and (max-width: 780px){
+    .container{
+        border-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        background-color: #495e57;
+        border-radius: 6pt;
+        /* gap:10px */
+    }
+}

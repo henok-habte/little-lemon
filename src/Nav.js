@@ -1,13 +1,12 @@
 import React from 'react'
 import branch from '../src/icons_assets/Logo .svg'
+import './nav.css';
 
 function Nav() {
   return (
-    <nav>
-        <figure>
-        <img src={branch} width={250} height={150}/>
-        </figure>
+    <nav className='nav'>
         <ul>
+            <li className='logo'><img src={branch} /></li>
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Menu</a></li>

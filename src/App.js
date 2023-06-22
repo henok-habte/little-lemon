@@ -6,12 +6,11 @@ import Nav from './Nav';
 
 function App() {
   return (
-    < >
-    <Header/>
-    <Nav/>
-    <Main/>
-    <Footer/>
-    </>
+    <div className='content' >
+      <div><Nav /></div>
+      <div><Main /></div>
+      <div><Footer /></div>
+    </div>
   );
 }
 
