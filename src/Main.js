@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css';
+import { Link } from 'react-router-dom';
 function Main() {
   return (
     <main class="grid-container">
@@ -10,6 +11,7 @@ function Main() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                Reiciendis error consequuntur vero harum eum facilis quos quisquam eligendi sapiente, fugit, in atque delectus rerum totam libero quas repellat voluptas quo?
             </p>
+            <button><Link className='link' to="/Bookingpage">Book a Table</Link></button>
           </article>
           <img src="./img/1.png"/>
         </section>

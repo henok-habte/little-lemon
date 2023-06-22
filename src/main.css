@@ -41,6 +41,24 @@ max-height: 400px;
 justify-self: center;
 border-radius: 10pt;
 }
+.main-sec button{
+  background-color: #f4ce14;
+  color: #495e57;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+.link{
+  text-decoration: none;
+  color: #495e57;
+}
+.link:hover{
+  color: #edefee;
+  background-color: #495e57;
+}
+.main-sec button:hover{
+  background-color: #495e57;
+}
 
 
 .first-sec{

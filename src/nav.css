@@ -13,9 +13,14 @@
     margin: 0 auto;
     list-style-type: none;
     padding-top: 12px;
+    text-decoration: none;
     /* background-color: aqua; */
 }
-.nav ul>a:hover{
+.link-nav{
+    color: #495e57;
+    text-decoration: none;
+}
+.nav ul>.link-nav:hover{
     background-color:#495e57 ;
 }
 .nav ul li{
