@@ -28,7 +28,7 @@
     align-self: center;
 }
 
-.nav .logo{
+.nav img{
     grid-column: 1/3;
     line-height: 0;
     justify-self: start;

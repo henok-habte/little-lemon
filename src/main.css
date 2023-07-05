@@ -35,11 +35,12 @@ font-family: 'markazi text';
 color: #edefee;
 font-size: 1.1em;
 }
-.main-sec > img{
-max-width: 500px;
-max-height: 400px;
+.main-sec img{
+padding-top: 30px;
+width: 300px;
+height: 500px;
 justify-self: center;
-border-radius: 10pt;
+border-radius: 20pt;
 }
 .main-sec button{
   background-color: #f4ce14;
@@ -159,6 +160,7 @@ border-radius: 8pt;
 max-width: 500px;
 max-height: 300px;
 align-self: center;
+justify-self: center;
 border-radius: 10pt;
 }
 .third-sec article h2{
@@ -366,7 +368,8 @@ border-radius: 10pt;
   border-radius: 8pt;
   max-width: 500px;
   max-height: 300px;
-  align-self: center;
+  align-self: start;
+  justify-self: start;
 }
 
   }

@@ -1,11 +1,12 @@
 import React from 'react';
 import './footer.css';
+import img from './icons_assets/logo-white.png'
 
 function Footer() {
   return (
     <footer className='container'>
       <div>
-        <img alt='greenish logo'/>
+        <img src={img} alt='greenish logo'/>
       </div>
       <div>
         <h3>Doormat Navigation</h3>

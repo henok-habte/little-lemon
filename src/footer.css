@@ -19,6 +19,11 @@
 .container div{
     text-align: start;
 }
+.container img{
+    padding-top: 40px;
+max-width: 300px;
+max-height: 200px;
+}
 @media screen and (max-width: 980px){
     .container{
         border-top: 10px;

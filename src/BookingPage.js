@@ -1,13 +1,20 @@
-import React from 'react'
-import Nav from './Nav';
+import Nav from "./Nav"
+import ReservationForm from "./BookingForm";
+import { useReducer } from "react";
+import { fetchAPI } from "./bookingsAPI";
+export default function BookingPage() {
+  function updateTimes(date) {
+    return fetchAPI(date);
+  }
 
-function BookingPage() {
+  const output = fetchAPI(new Date());
+
+  const [availableTimes, dispatch] = useReducer(updateTimes, output);
+
   return (
-    <div>
-        <Nav/>
-        <h1>BookingPage</h1>
-    </div>
-  )
+    <>
+      <Nav/>
+      <ReservationForm availableTimes={availableTimes} updateTimes={dispatch} />
+    </>
+  );
 }
-
-export default BookingPage;

@@ -1,6 +1,11 @@
 import React from 'react';
 import './main.css';
 import { Link } from 'react-router-dom';
+import img1 from './icons_assets/restauranfood.jpg'
+import img2 from './icons_assets/greek salad.jpg'
+import img3 from './icons_assets/bruchetta.svg'
+import img4 from './icons_assets/lemon dessert.jpg'
+import abtimg from './icons_assets/Mario and Adrian A.jpg'
 function Main() {
   return (
     <main class="grid-container">
@@ -13,24 +18,24 @@ function Main() {
             </p>
             <button><Link className='link' to="/Bookingpage">Book a Table</Link></button>
           </article>
-          <img src="./img/1.png"/>
+          <img src={img1}/>
         </section>
         <section class="first-sec">
           <h2>This Weeks Special!</h2>
           <button id="button">Online Menu</button>
           <article>
-            <img src="./img/3.png"/>
-            <h3>Pasta</h3>
+            <img src={img2}/>
+            <h3>Greek Salad</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quasi pariatur repellat eius tempore nemo, quo animi dolores quibusdam magni maiores molestias error in dolor magnam, exercitationem voluptates necessitatibus!</p>
           </article>
           <article>
-            <img src="./img/3.png"/>
-            <h3>Salad</h3>
+            <img src={img3}/>
+            <h3>Bruschetta</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quasi pariatur repellat eius tempore nemo, quo animi dolores quibusdam magni maiores molestias error in dolor magnam, exercitationem voluptates necessitatibus!</p>
           </article>
           <article>
-            <img src="./img/3.png"/>
-            <h3>Goulash</h3>
+            <img src={img4}/>
+            <h3>Lemon Dessert</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quasi pariatur repellat eius tempore nemo, quo animi dolores quibusdam magni maiores molestias error in dolor magnam, exercitationem voluptates necessitatibus!</p>
           </article>
         </section>
@@ -64,7 +69,7 @@ function Main() {
             <h3>Chicago</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde.</p>
           </article>
-          <img src="./img/2.png"/>
+          <img src={abtimg}/>
         </section>
       </main>
 
