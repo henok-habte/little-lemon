@@ -18,6 +18,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 border-bottom: 2px solid #828b8a;
 padding-bottom: 20px;
+padding-left: 10pt;
 background-color: #495e57;
 }
 .main-sec h1{
@@ -189,6 +190,7 @@ grid-column: span 12;
 display: grid;
 grid-template-columns: 1fr 1fr;
 padding-bottom: 20px;
+padding-left: 10pt;
 gap: 10px;
 background-color: #edefee;
 }

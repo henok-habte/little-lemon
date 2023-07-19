@@ -105,7 +105,12 @@ function Main() {
           <article>
             <h2>Little Lemon</h2>
             <h3>Chicago</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa omnis quod totam, tempore, soluta minus distinctio odit eaque ducimus aliquam! Reiciendis suscipit molestias sit. Voluptatum voluptatibus vel suscipit unde.
+            </p>
           </article>
           <img src={abtimg} alt='Little Lemon Logo'/>
         </section>
