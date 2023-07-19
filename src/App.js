@@ -8,10 +8,12 @@ import Reservation from './Reservation';
 import Login from './Login';
 import OnlineOrder from './OnlineOrder';
 import Confirmation from './Confirmation';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <div className='content' >
+      <ScrollToTop/>
       <Routes>
       <Route path='/' element={<HomePage/>} />
       <Route path='/Bookingpage' element={<BookingPage/>} />

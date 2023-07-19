@@ -1,27 +1,31 @@
 .nav{
     background-color:#edefee;
-    font-family: Marakazi;
+    font-family: "Marakazi Text";
     font-size: 20pt;
-    color: #495e57;
 }
 
 .nav ul{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(7, 1fr); */
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     margin: 0 auto;
     list-style-type: none;
     padding-top: 12px;
     text-decoration: none;
-    /* background-color: aqua; */
+
 }
 .link-nav{
     color: #495e57;
     text-decoration: none;
 }
-.nav ul>.link-nav:hover{
-    background-color:#495e57 ;
+.link-nav:hover{
+    color:#f4ce14 ;
+}
+.active{
+    color:#f4ce14;
 }
 .nav ul li{
     justify-self: center;
@@ -37,10 +41,17 @@
 
 }
 
+
 @media screen and (max-width: 980px){
     .nav ul{
-        display: block;
-        text-align: start;
-        gap: 10px;
+        display: none;
+    }
+
+    .hamburgerExp{
+        display: inline;
+        background-color: #edefee;
+        height: 50vh;
+        width: 50vw;
+        position: absolute;
     }
 }

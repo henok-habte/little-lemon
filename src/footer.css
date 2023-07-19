@@ -11,10 +11,18 @@
     font-size: 14pt;
     color: #edefee;
 }
-.container p{
+.doormat-Link, p, .link-nav2{
     font-family: karla;
     font-size: 12pt;
     color: #edefee;
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+.link-nav2:hover{
+    color: #f4ce14;
+    text-decoration: underline;
 }
 .container div{
     text-align: start;
@@ -24,6 +32,14 @@
 max-width: 300px;
 max-height: 200px;
 }
+
+.icons{
+    background-color: #495e57;
+    color: #ffffff;
+}
+
+
+
 @media screen and (max-width: 980px){
     .container{
         border-top: 10px;

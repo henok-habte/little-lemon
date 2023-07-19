@@ -1,0 +1,71 @@
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: red solid 1px;
+  }
+
+  .contain{
+    /* padding-top: 3rem; */
+    background-color: #edefee;
+  }
+
+  .contain div{
+    padding: 0.5rem;
+  }
+
+  .reservation-form{
+    margin: 0 auto;
+    width:250px;
+  }
+
+  .contain .head{
+    background-color:#495e57;
+    color: #edefee;
+    /* padding: 2rem 2rem 2rem 2rem; */
+    text-align: center;
+  }
+
+  .FieldError{
+    color: red;
+  }
+
+
+  input,
+select,
+option,
+textarea {
+  padding: 10px 10px 10px 10px;
+  resize: none;
+}
+
+label,
+input,
+select,
+textarea,
+.notice {
+  font-family: "Karla";
+  color: #495e57;
+}
+
+input,
+select,
+textarea {
+  width: 20rem;
+}
+
+label{
+  font-weight: bold;
+}
+.bookingButton{
+  background-color: #f4ce14;
+  color: #495e57;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2pt solid #495e57;
+  margin-bottom: 10pt;
+}
+.bookingButton:hover{
+  background-color: #495e57;
+  color: #ffffff;
+  font-weight: bold;
+}

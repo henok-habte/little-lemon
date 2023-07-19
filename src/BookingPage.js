@@ -1,5 +1,6 @@
 import Nav from "./Nav"
 import ReservationForm from "./BookingForm";
+import Footer from "./Footer"
 import { useReducer } from "react";
 import { fetchAPI } from "./bookingsAPI";
 export default function BookingPage() {
@@ -15,6 +16,7 @@ export default function BookingPage() {
     <>
       <Nav/>
       <ReservationForm availableTimes={availableTimes} updateTimes={dispatch} />
+      <Footer/>
     </>
   );
 }

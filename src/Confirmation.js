@@ -11,7 +11,7 @@ const style = {
     gap: '1rem',
     minHeight: '31.25rem',
     padding: '1.875rem 0 1.875rem 0',
-    textAlign: 'center'
+    textAlign: 'center',
   
 }
 
